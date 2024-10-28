@@ -1,0 +1,144 @@
+/* .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .modal-content {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 500px;
+    width: 90%;
+    animation: slideIn 0.3s ease;
+  }
+  
+  @keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  
+  .modal-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .modal-close-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #9013fe;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .modal-close-button:hover {
+    background: #4a90e2;
+  }
+   */
+
+   .modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    display: flex;
+    justify-content: center; /* Center modal horizontally */
+    align-items: center; /* Center modal vertically */
+    z-index: 1000; /* High z-index to overlay other content */
+    animation: fadeIn 0.4s ease-in; /* Fade-in effect */
+}
+
+.modal-content {
+    background-color: white; /* Modal background color */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+    max-width: 600px; /* Maximum width of the modal */
+    width: 90%; /* Responsive width */
+    padding: 1.5rem; /* Padding inside the modal */
+    position: relative; /* Relative positioning for the close button */
+    overflow: hidden; /* Prevents overflow of content */
+    transform: translateY(-30px); /* Initial position for animation */
+    animation: slideIn 0.5s forwards ease-in-out; /* Slide-in effect */
+}
+
+.modal-title {
+    font-size: 2rem; /* Title size */
+    color: #333; /* Title color */
+    margin-bottom: 1rem; /* Space below the title */
+    font-weight: 600; /* Bold title */
+    text-align: center; /* Center title */
+}
+
+.modal-image {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-bottom: 1rem; /* Space below the image */
+    transition: transform 0.3s; /* Smooth scale effect */
+}
+
+.modal-image:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.modal-description {
+    color: #555; /* Description color */
+    margin-bottom: 1.5rem; /* Space below the description */
+    line-height: 1.6; /* Line height for readability */
+}
+
+.modal-close-button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0.7rem 1.2rem; /* Padding for button */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition for hover and scale */
+    font-size: 1rem; /* Button text size */
+    display: block; /* Block display for centering */
+    margin: 0 auto; /* Center button */
+}
+
+.modal-close-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Keyframes for fade-in and slide-in animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start transparent */
+    }
+    to {
+        opacity: 1; /* End fully visible */
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-30px); /* Start above */
+        opacity: 0; /* Start transparent */
+    }
+    to {
+        transform: translateY(0); /* End in place */
+        opacity: 1; /* End fully visible */
+    }
+}

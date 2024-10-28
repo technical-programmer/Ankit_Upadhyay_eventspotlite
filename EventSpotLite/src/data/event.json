@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "Tech Conference 2024",
+      "date": "2024-11-01",
+      "location": "Bangalore, India",
+      "description": "An annual tech conference focusing on AI, ML, and web development.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIsAxKjvKu7Fgo8gl_M3A3lS8AV2TQc_Ecuw&s"
+    },
+    {
+      "id": 2,
+      "name": "Art & Culture Fest",
+      "date": "2024-11-10",
+      "location": "Punjab, India",
+      "description": "A celebration of art, music, and culture in the heart of New York.",
+      "image": "https://img-cdn.thepublive.com/fit-in/640x430/filters:format(webp)/30-stades/media/media_files/iT16F3Y1g5OnjYb8xHbC.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Food Expo 2024",
+      "date": "2024-11-15",
+      "location": "Bihar,India",
+      "description": "Explore a variety of cuisines and culinary demonstrations from top chefs.",
+      "image": "https://media.istockphoto.com/id/1054862736/photo/waiter-carrying-plates-with-meat-dish.jpg?s=612x612&w=0&k=20&c=sAPvulfoGCwWvH26kd3dh7WtfMSnYdEB2eqNu3hSMt4="
+    },
+    {
+      "id": 4,
+      "name": "StartUp Pitch Day",
+      "date": "2024-11-20",
+      "location": "Gurugram, India",
+      "description": "A platform for startups to pitch their innovative ideas to investors.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvT_eRqaw_mcWmdCGwiigSTzpSQG8g06QdQ&s"
+    },
+    {
+      "id": 5,
+      "name": "Health & Wellness Expo",
+      "date": "2024-11-22",
+      "location": "Punjab, India",
+      "description": "A comprehensive expo covering fitness, nutrition, and mental health.",
+      "image": "https://media.istockphoto.com/id/998833424/photo/volunteer-nurse-checks-patients-blood-pressure.jpg?s=612x612&w=0&k=20&c=Zh76dyFDbRpuJPhMKbGF6q0naGPMRh47uOUgZc_M_-c="
+    },
+    {
+      "id": 6,
+      "name": "Winter Music Fest",
+      "date": "2024-12-05",
+      "location": "Punjab, India",
+      "description": "A musical extravaganza featuring popular bands and solo artists.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0C5QxoDe3V-9weum6Ltn9aKchfK8jaUyOZg&s"
+    },
+    {
+      "id": 7,
+      "name": "Fashion Week",
+      "date": "2024-12-10",
+      "location": "Delhi , India",
+      "description": "Showcasing the latest trends and collections from top designers.",
+      "image": "https://res.cloudinary.com/hamstech/images/f_auto,q_auto/v1674024808/Hamstech%20App/Title-Image-11_80471179105e5/Title-Image-11_80471179105e5.jpg?_i=AA"
+    },
+    {
+      "id": 8,
+      "name": "Holiday Market",
+      "date": "2024-12-15",
+      "location": "UP , India",
+      "description": "A festive market featuring unique gifts, crafts, and holiday treats.",
+      "image": "https://media.istockphoto.com/id/482676476/photo/people-shopping-at-market-fair-in-day.jpg?s=612x612&w=0&k=20&c=Q0TzfbiRKSXA8wvK0dn804cPAmZSawzFqK2HicsOG1M="
+    },
+    {
+      "id": 9,
+      "name": "Comic Con 2024",
+      "date": "2024-12-20",
+      "location": "Mumbai, India",
+      "description": "An event for fans of comics, movies, games, and pop culture.",
+      "image": "https://media.istockphoto.com/id/1186127120/photo/mic-on-a-stage-ready-for-the-singer-or-speaker.jpg?s=612x612&w=0&k=20&c=RIS1l7XtqtZvXwKp1YXGv9-agFcgC9BHbSe6mcHZ1Hw="
+    },
+    {
+      "id": 10,
+      "name": "New Year's Eve Gala",
+      "date": "2024-12-31",
+      "location": "Chandigarh, India",
+      "description": "Ring in the new year with a grand celebration featuring live music and fireworks.",
+      "image": "https://media.istockphoto.com/id/497317250/photo/new-year-party.jpg?s=612x612&w=0&k=20&c=ssF8Nl4srRSnNhToYI0GlUznz3xVVJunOnaIe1ukllA="
+    }
+  ]
+  

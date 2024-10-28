@@ -1,0 +1,76 @@
+/* navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between title and search bar */
+  background: linear-gradient(to right, #007bff, #6f42c1); /* Gradient from blue to purple */
+  padding: 1rem 2rem; /* Top/bottom and left/right padding */
+  margin-bottom: 1rem; /* Add margin at the bottom */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: sticky; /* Keep navbar fixed at the top */
+  top: 0; /* Position at the top */
+  z-index: 1000; /* Ensure it stays above other content */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.navbar-title {
+  font-size: 1.8rem; /* Title font size */
+  color: #fff; /* White text color for contrast against the gradient */
+  font-weight: 600; /* Medium weight for emphasis */
+}
+
+/* searchBar.css */
+
+.search-input {
+  padding: 0.5rem 1rem; /* Comfortable padding */
+  border: 2px solid #fff; /* White border to match the title */
+  border-radius: 25px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  width: 300px; /* Fixed width */
+  max-width: 100%; /* Responsive max-width */
+  font-size: 1rem; /* Font size */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  position: relative; /* Position for icon */
+}
+
+.search-input:focus {
+  border-color: #e0e0e0; /* Light grey border color on focus */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Light shadow on focus */
+}
+
+.search-input::placeholder {
+  color: #eee; /* Lighter placeholder text color */
+  opacity: 1; /* Ensure visibility */
+  transition: color 0.3s; /* Smooth transition for placeholder color */
+}
+
+.search-input:focus::placeholder {
+  color: transparent; /* Hide placeholder on focus */
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding: 1rem; /* Reduced padding for smaller screens */
+  }
+
+  .navbar-title {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    margin-bottom: 1rem; /* Space below the title */
+  }
+
+  .search-input {
+    width: 100%; /* Full width on smaller screens */
+    margin-top: 0.5rem; /* Space above the search input */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-title {
+    font-size: 1.3rem; /* Further reduce font size for very small screens */
+  }
+}
